@@ -10,7 +10,7 @@ function Menus({ name, img, names }) {
           See all
         </p>
       </div>
-      <div className="flex overflow-scroll w-screen md:w-auto gap-5 md:grid md:grid-cols-2 md:gap-10 px-6">
+      <div className="menus flex overflow-x-scroll w-screen md:w-auto gap-5 md:grid md:grid-cols-2 md:gap-10 px-6 pb-5 md:pb-0">
         <Menu
           name={names ? names[0] : "Avocado Salad"}
           price="4.800"
