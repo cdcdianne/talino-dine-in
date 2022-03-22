@@ -66,7 +66,7 @@ function App() {
 
       {/* BODY */}
 
-      <div className="bg-secondary-bg pt-10 md:py-16">
+      <div className="bg-secondary-bg pt-2 md:py-16">
         <div className="max-w-screen-lg mx-auto px-6 md:px-0">
           <div className="flex items-center gap-2 md:justify-between md:gap-0">
             <div
