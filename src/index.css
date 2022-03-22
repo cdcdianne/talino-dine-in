@@ -19,7 +19,7 @@
     @apply cursor-pointer;
   }
   .product-row-desktop {
-    @apply flex overflow-scroll w-screen md:w-auto gap-5 md:grid md:grid-cols-2 md:gap-10 px-6 py-8 border-b-[1px] border-gray-500;
+    @apply flex overflow-scroll w-screen md:w-auto gap-5 md:grid md:grid-cols-2 md:gap-10 px-6 py-8 border-b-[1px] border-gray-500 pl-0;
     /* @apply flex overflow-scroll w-screen md:w-auto md:grid md:grid-cols-2 md:gap-40 py-8 border-b-[1px] border-gray-500; */
   }
 }
@@ -44,12 +44,9 @@ code {
     monospace;
 }
 
-
 .custom-mx-100 {
   margin-left: 100px;
   margin-right: 100px;
-
-
 }
 
 @media screen and (max-width: 600px) {
@@ -57,5 +54,4 @@ code {
     margin-left: unset;
     margin-right: unset;
   }
-
 }
