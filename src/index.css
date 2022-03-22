@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply font-raleway py-2 px-6 rounded-md;
+  }
+  .btn-block {
+    @apply w-full;
+  }
+  .btn-primary {
+    @apply bg-yellow;
+  }
+  .btn-default {
+    @apply bg-gray-200;
+  }
+  .links {
+    @apply cursor-pointer;
+  }
+  .product-row-desktop {
+    @apply flex overflow-scroll w-screen md:w-auto gap-5 md:grid md:grid-cols-2 md:gap-10 px-6 py-8 border-b-[1px] border-gray-500;
+    /* @apply flex overflow-scroll w-screen md:w-auto md:grid md:grid-cols-2 md:gap-40 py-8 border-b-[1px] border-gray-500; */
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.custom-mx-100 {
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .custom-mx-100 {
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+}
